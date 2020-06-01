@@ -32,7 +32,7 @@ function setup(){
     platform2 = new Platform(200,600,200,300);
     platform = new Platform(700,500,500,10);
     ground = new Ground(600,height,1200,20);
-    ball = new Ball(100,100);
+    ball = new Ball(200,200);
     
     //log6 = new Log(230,180,80, PI/2);
     sling = new SlingShot(ball.body,{x:180,y:290});
